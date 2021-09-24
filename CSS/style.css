@@ -1,15 +1,58 @@
-.title h1 {
-    color: rgb(39, 41, 41);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
     text-align: center;
+    margin: 25px;
 }
-
-.chicken h2 {
-    background: darkolivegreen;
-    border: 2px solid rgb(131, 8, 8);
-}
-
-.chicken p {
-    background: tomato;
+.box {
+    float: left;
+    width: 33.33%;
     padding: 10px;
+    margin: 10px;
+}
+.container {
+    width: 400px;
+    background: rgb(240, 238, 238);
+    border: 2px solid rgb(8, 8, 8);
+    padding: 15px;
+    position: relative;
+}
+#chicken {
+    position: absolute;
+    top: 0px;
+    left: 248px;
+    background: rgb(250, 230, 230);
+    border: 2px solid rgb(8, 8, 8);
+    width: 150px;
+    padding: 10px;
+    margin-top: -2px;
+}
 
+#beef {
+    position: absolute;
+    top: 0px;
+    left: 248px;
+    background: rgb(247, 146, 146);
+    border: 2px solid rgb(8, 8, 8);
+    width: 150px;
+    padding: 10px;
+    margin-top: -2px;
+}
+
+#sushi {
+    position: absolute;
+    top: 0px;
+    left: 248px;
+    background: rgb(221, 245, 191);
+    border: 2px solid rgb(8, 8, 8);
+    width: 150px;
+    padding: 10px;
+    margin-top: -2px;
+}
+.text {
+    padding-top: 40px;
 }
