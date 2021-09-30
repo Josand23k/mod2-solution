@@ -12,19 +12,38 @@
     float: left;
     width: 33.33%;
     padding: 10px;
-    margin: 10px;
+    margin: 1%;
 }
-.container {
-    width: 400px;
+.container1 {
+    width: 31.3%;
+    background: rgb(240, 238, 238);
+    border: 2px solid rgb(8, 8, 8);
+    padding: 15px;
+    position:relative;
+
+}
+.container2 {
+    width: 31.3%;
     background: rgb(240, 238, 238);
     border: 2px solid rgb(8, 8, 8);
     padding: 15px;
     position: relative;
+
+
+}
+.container3 {
+    width: 31.3%;
+    background: rgb(240, 238, 238);
+    border: 2px solid rgb(8, 8, 8);
+    padding: 15px;
+    position: relative;
+
+
 }
 #chicken {
     position: absolute;
     top: 0px;
-    left: 248px;
+    right: -0.4%;
     background: rgb(250, 230, 230);
     border: 2px solid rgb(8, 8, 8);
     width: 150px;
@@ -32,11 +51,10 @@
     margin-top: -2px;
     text-align: center;
 }
-
 #beef {
     position: absolute;
     top: 0px;
-    left: 248px;
+    right: -0.6%;
     background: rgb(247, 146, 146);
     border: 2px solid rgb(8, 8, 8);
     width: 150px;
@@ -44,11 +62,10 @@
     margin-top: -2px;
     text-align: center;
 }
-
 #sushi {
     position: absolute;
     top: 0px;
-    left: 248px;
+    right: -0.5%;
     background: rgb(221, 245, 191);
     border: 2px solid rgb(8, 8, 8);
     width: 150px;
@@ -57,5 +74,54 @@
     text-align: center;
 }
 .text {
-    padding-top: 40px;
+    padding-top: 50px;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .container1 {
+        width: 48%;
+    }
+    .container2 {
+        width: 48%;
+    }
+    .container3 {
+        width: 98%;
+    }
+    #chicken {
+        right: -0.5%;
+    }
+    #beef {
+        right: -0.4%;
+    }
+    #sushi {
+        right: -0.2%;
+    }
+}
+
+@media (max-width:767px) {
+    .container1 {
+        width: auto;
+        float: none;
+       margin-bottom: 15px;
+    }
+    .container2 {
+        width: auto;
+        float: none;
+        margin-bottom: 15px;
+    }
+    .container3 {
+        width: auto;
+        float: none;
+       margin-bottom: 15px;
+    }
+    #chicken {
+        right: -0.3%;
+    }
+    #beef {
+        right: -0.3%; 
+    }
+    #sushi {
+        right: -0.3%;
+    }
 }
